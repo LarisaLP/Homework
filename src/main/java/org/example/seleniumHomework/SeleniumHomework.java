@@ -16,6 +16,7 @@ public class SeleniumHomework {
 
     @Test
     public void emptyFieldsTest() {
+        //Test1
         System.setProperty("web-driver.chrome.driver", "./lib/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://siit.epizy.com/index.php?route=account/register");
